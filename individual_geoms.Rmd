@@ -1,0 +1,58 @@
+# (PART) Layers {-}
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE
+)
+```
+
+# Individual geoms
+
+```{r, message = FALSE}
+library(ggplot2)
+```
+
+
+## Basic plot types
+
+**Q1:** What geoms would you use to draw each of the following named plots?
+
+1. Scatterplot
+1. Line chart
+1. Histogram
+1. Bar chart
+1. Pie chart
+
+**A:** 
+
+1. Scatterplot: `geom_point()`
+
+1. Line chart:  `geom_line()`
+
+1. Histogram:   `geom_histogram()`
+
+1. Bar chart:   `geom_bar()`
+
+1. Pie chart:   `geom_bar() + coord_polar()`
+
+
+**Q2:** What’s the difference between `geom_path()` and `geom_polygon()`? What’s the difference between `geom_path()` and `geom_line()`?
+
+**A:** `geom_polygon()` is very similar to `geom_path()` except that the start and end points are connected and the inside is coloured by fill.
+
+`geom_path()` connects the observations in the order in which they appear in the data, but `geom_line()` connects them in order of the variable on the x-axis.
+
+
+
+**Q3:** What low-level geoms are used to draw `geom_smooth()`? What about `geom_boxplot()` and `geom_violin()`?
+
+**A:** 
+
+1. `geom_smooth()`: `geom_path()`, and `geom_area()`.
+
+1. `geom_boxplot()`: `geom_line()`, `geom_point()`, and `geom_rect()`.
+
+1. `geom_violin()`: `geom_area()`, and `geom_path()`.
+

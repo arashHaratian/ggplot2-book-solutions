@@ -1,0 +1,18 @@
+--- 
+title: "ggplot2 Book Solutions"
+# description: ""
+author: "Arash Haratian"
+date: "`r Sys.Date()`"
+
+site: bookdown::bookdown_site
+documentclass: book
+
+# bibliography: [book.bib, packages.bib]
+# biblio-style: apalike
+# link-citations: yes
+
+---
+
+# Welcome {-}
+
+This is the demo version of "ggplot2: elegant graphics for data analysis solutions" which provides solutions to the exercises from Hadley Wickham's [ggplot2: elegant graphics for data analysis, 3rd edition](https://ggplot2-book.org/index.html).

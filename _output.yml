@@ -1,0 +1,18 @@
+bookdown::bs4_book:
+  theme:
+    primary: "#274E82"
+
+
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">ggplot2: elegant graphics for data analysis solutions</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+      collapse: section
+    sharing: no
+    edit:
+      link: https://github.com/Tazinho/Advanced-R-Solutions/edit/main/%s
+      text: "Edit"

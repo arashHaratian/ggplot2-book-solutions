@@ -1,0 +1,10 @@
+book_filename: "ggplot2-book-solutions"
+delete_merged_file: true
+new_session: true
+
+rmd_files: [
+  "index.Rmd",
+  "first_steps.Rmd",
+  "individual_geoms.Rmd",
+  "collective_geoms.Rmd"
+]
