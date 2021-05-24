@@ -4,7 +4,8 @@ Title: Solutions to ggplot2 book
 Version: 0.1
 Depends: 
     R (>= 3.1.0)
-Imports: 
+Imports:
+  bookdown,
   dplyr,
   ggplot2,
   stringr,
@@ -12,4 +13,6 @@ Imports:
 Suggests:
   babynames,
   bookdown,
-Remotes: rstudio/bookdown
+Remotes:
+  rstudio/bookdown,
+  rstudio/rmarkdown
