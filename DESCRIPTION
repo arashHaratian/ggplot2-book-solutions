@@ -1,0 +1,15 @@
+Package: ggplot2.book.solutions
+Type: Book
+Title: Solutions to ggplot2 book
+Version: 0.1
+Depends: 
+    R (>= 3.1.0)
+Imports: 
+  dplyr,
+  ggplot2,
+  stringr,
+  forcats
+Suggests:
+  babynames,
+  bookdown,
+Remotes: rstudio/bookdown
