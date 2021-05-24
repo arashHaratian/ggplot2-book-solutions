@@ -14,5 +14,5 @@ bookdown::gitbook:
       collapse: section
     sharing: no
     edit:
-      link: https://github.com/Tazinho/Advanced-R-Solutions/edit/main/%s
+      link: https://github.com/arashHaratian/ggplot2-book-solutions/edit/main/%s
       text: "Edit"
