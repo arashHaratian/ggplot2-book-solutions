@@ -10,9 +10,13 @@ Imports:
   ggplot2,
   stringr,
   forcats
+  bslib
 Suggests:
+  downlit,
+  xml2,
   babynames,
   bookdown,
 Remotes:
   rstudio/bookdown,
-  rstudio/rmarkdown
+  rstudio/rmarkdown,
+  rstudio/bslib
